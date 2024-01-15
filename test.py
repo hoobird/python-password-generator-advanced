@@ -1,0 +1,15 @@
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Password Generator")
+label = tk.Label(window, text="test label")
+button = tk.Button(window, text="test button", fg="red")
+textinput = tk.Entry(window)
+manytextinput = tk.Text(window)
+checkbutton = tk.Checkbutton(window, text="nice check button")
+label.pack()
+button.pack()
+textinput.pack()
+manytextinput.pack()
+checkbutton.pack()
+window.mainloop()
